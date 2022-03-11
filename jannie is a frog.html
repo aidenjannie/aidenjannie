@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html lang="en">
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+ 
+<head>
+
+<meta charset="UTF-8">
+<title>upload you image
+</title>
+</head>
+<div><h1> jannie is a pig</h1></div>
+<img src="http://cdn.shopify.com/s/files/1/0512/1002/7160/files/organic-cotton_c0185678-e634-4b98-9650-116cf492c596_2048x2048.jpg?v=1630296445" height="250px" width="480px" >
+<p>
+    <canvas id="can1">
+    </canvas>
+    <canvas id="can2">
+     
+  </canvas>
+  <canvas id="can3"></canvas>
+</p>
+  <p id="p1" >  
+  
+  <h2>Load Image</h2></p>
+  <p><input type="file" value="choose files" multuple="false" accept="image/*" id="finput" onchange="upload()">
+  <input type="file" value="bgimage file" multiple="false" accept="image/*" id="binput" onchange="Upload()">"
+</p>
+  <p  id="p2">
+   <h2> Choose Filter</h2>
+  </p>
+  <input type="button" value="Grayscale" id="gscale" onclick="makegray()" mutiple>
+  <input type="button" value="Red" id="changered" onclick="changeRed()">
+    <input type="button" value='rainbow' id="rainbowchange"
+           onclick="changetorainbow()">
+<input type="button" value="blur" id="changeblur" onclick="changeBlur()">
+  </p>
+<p>
+  <canvas id="can4"></canvas>
+  <canvas id="can5"></canvas>
+  <canvas id="can6"></canvas>
+</p>
+<p>
+<input type="button" value="chop" id="chopimage1" onclick="chopimage()">
+<input type="button" value="shiftimage" id="shift" onclick="shifImage()">
+<input type="button" value="combine" id="com" onclick="combineimage()">
+
+<p>
+    <input type="button" value="reset image" id=reeset onclick="reSet()">
+<input type="button" value="crop" id="crops" onclick="cropimage()">
+
+</p>
+<br>
+<div>
+  <p>
+    <video src="http://sp.ntaotu.com/localhost-wordpress-phpstudy.mp4" controls="controls" width="500" height="300">您的浏览器不支持播放该视频！</video>
+<figure>
+    <blockquote cite="https://www.huxley.net/bnw/four.html">
+        <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+    </blockquote>
+    <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
+</figure>
+</html>    
+
